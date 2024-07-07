@@ -52,8 +52,9 @@ This repository contains three APIs implemented in Python using Flask, each serv
    ```bash
    pip3 install requirements.txt
 
-3. For api1.py and api3.py - Run the program and move to localhost link coming in console's output.
-4. For api2.py - Run the program and paste localhost test link on browser
+3. For app1.py and app3.py - Run the program and move to localhost link coming in console's output.
+4. For app2.py - Run the program and paste localhost test link on browser
    ```bash
    http://127.0.0.1:5000/check_endpoint?endpoint=http://example.com
+   http://127.0.0.1:5000/check_endpoint?endpoint=http://app2.com
 
