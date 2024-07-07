@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis Results</title>
+</head>
+<body>
+    <h2>Text Analysis Results</h2>
+    <h3>Incorrect Spellings:</h3>
+    <ul>
+        {% for word in result.IncorrectSpellings %}
+            <li>{{ word }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Profanity Words:</h3>
+    <ul>
+        {% for word in result.ProfanityWords %}
+            <li>{{ word }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Nouns in Ascending Order of Length:</h3>
+    <ul>
+        {% for word in result.NounsInAscendingOrderOfLength %}
+            <li>{{ word }}</li>
+        {% endfor %}
+    </ul>
+
+    <br>
+    <a href="/">Analyze another text</a>
+</body>
+</html>
