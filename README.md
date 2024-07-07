@@ -44,8 +44,8 @@ This repository contains three APIs implemented in Python using Flask, each serv
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/owais-ash/api_practice
+   cd api_practice
 
 2. Run requirements.txt
 
